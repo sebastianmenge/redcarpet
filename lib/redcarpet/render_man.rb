@@ -40,7 +40,7 @@ module Redcarpet
       end
 
       def paragraph(text)
-        "\n.TP\n#{text}\n"
+        "\n.TP\n#{text}"
       end
 
       def list(content, list_type)
